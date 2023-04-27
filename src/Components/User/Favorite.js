@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useSelector, useDispatch } from 'react-redux';
 
 
-export default function Cart(props) {
+export default function Favorite(props) {
     const FavoriteProduct = useSelector(state => state.favorite)
     const Dispatch = useDispatch()
 

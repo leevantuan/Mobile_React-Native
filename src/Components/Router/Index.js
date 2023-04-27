@@ -9,7 +9,7 @@ import { Ionicons } from '@expo/vector-icons';
 import Home from '../User/Home';
 import Menu from '../User/Menu';
 import Cart from '../User/Cart';
-import Settings from '../User/Setting';
+import Favorite from '../User/Favorite';
 import Search from '../User/Search';
 import Sale from '../User/Sale';
 import New from '../User/New';
@@ -121,7 +121,7 @@ export default function Index() {
                     }}
 
                 />
-                <Tab.Screen name="Favorite" component={Settings}
+                <Tab.Screen name="Favorite" component={Favorite}
                     options={{
                         tabBarIcon: ({ focused, color, size }) => {
                             let iconName;
